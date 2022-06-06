@@ -180,8 +180,7 @@
     -moz-appearance: none;
     appearance: none;
 
-    &:checked+.checkbox__icon{
-        border: var(--accent-color);
+    &:checked+ .checkbox__icon{
         background-image: url(/images/icon-check-color.svg);
         background-size: cover;
         }
@@ -193,7 +192,7 @@
     margin-bottom: auto;
     width: 16px;
     height: 15px;
-    background-image: url(../images/checkbox-icon.svg);
+    background-image: url(/images/checkbox-icon.svg);
 
     transition: background-image var(--duration) var(--timing-function);
 }
@@ -210,4 +209,5 @@
 
     letter-spacing: 0.03em;
     color: var(--accent-color);
+
 }

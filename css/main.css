@@ -841,7 +841,6 @@
 }
 
 .checkbox:checked + .checkbox__icon {
-  border: var(--accent-color);
   background-image: url(/images/icon-check-color.svg);
   background-size: cover;
 }
@@ -852,7 +851,7 @@
   margin-bottom: auto;
   width: 16px;
   height: 15px;
-  background-image: url(../images/checkbox-icon.svg);
+  background-image: url(/images/checkbox-icon.svg);
   -webkit-transition: background-image var(--duration) var(--timing-function);
   transition: background-image var(--duration) var(--timing-function);
 }
